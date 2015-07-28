@@ -8,6 +8,6 @@ end
 
 arr = ["배터리", "비행기", "자동차"]
 
-arr.each do |x|
-  puts "너는 전생에 #{x} 였어"
+arr.each_with_index do |x, index|
+  puts "#{index + 1} 너는 전생에 #{x} 였어"
 end
