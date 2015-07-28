@@ -8,5 +8,5 @@ name = gets.chomp
 if name == "cyc"
   puts "You are cyc"
 else
-  puts "Who are you?"
+  puts "You are #{name}"
 end
