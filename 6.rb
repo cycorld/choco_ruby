@@ -5,3 +5,6 @@ puts array[0]
 puts array.last
 puts array.first
 puts array.sample
+
+words = ["배터리", "지갑", "음료수"]
+puts words.sample
