@@ -1,3 +1,3 @@
 front = "Hello "
-end = "World"
-puts front + end
+last = "World"
+puts front + last
