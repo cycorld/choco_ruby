@@ -7,6 +7,8 @@ name = gets.chomp
 
 if name == "cyc"
   puts "You are cyc"
+elsif name == "oh"
+  puts "Oh!"
 else
   puts "You are #{name}"
 end
